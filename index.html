@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="voter.webp" type="webp">
+</head>
+<body>
+<div class="container">
+    <h1>Voter Eligibility Checker</h1>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Your name" required>
+
+    <label for="phone">Mobile Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter Your mobile numebr" required>
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" placeholder="Enter age here" required>
+
+    <button class="btn" onclick="check()">Check</button>
+    <div class="msg">
+    <p id="msg"></p>
+    </div>
+</div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
