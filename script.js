@@ -5,7 +5,8 @@ function check(){
     const age=parseInt(ageinput.value)
     const msg =document.querySelector("#msg")
     msg.textContent="Checking details...";
-
+    msg.style.color = "black";
+    
     setTimeout(() => {
         if(isNaN(age)){
             msg.textContent = name.value +  " Enter a valid age!!"
